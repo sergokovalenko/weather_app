@@ -1,0 +1,41 @@
+body{
+    background-color: yellow;
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Monospace;
+}
+
+.quote-container{
+    width: 600px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px black solid;
+    margin-top: 10%;
+}
+
+.author{
+    text-align: right;
+    margin-right: 30px; 
+    margin-bottom: 30px;
+}
+
+.quote{
+    padding: 30px;
+    text-align: justify;
+    font-size: 26px;
+    
+}
+
+#quote-generator{   
+    margin: 10px 30px 30px 0px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 2px yellow solid;
+    background-color: yellow;
+}
+
+#quote-generator:hover{
+    background-color: rgb(66, 216, 66);
+    border-color: rgb(66, 216, 66);
+}
